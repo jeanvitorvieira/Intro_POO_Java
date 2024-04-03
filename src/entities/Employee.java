@@ -5,8 +5,6 @@ public class Employee {
     public double GrossSalary;
     public double Tax;
 
-    public double percentage;
-
     public double NetSalary() {
         return GrossSalary - Tax;
     }
