@@ -7,6 +7,8 @@ As pastas estão organizadas entre Application, Entities e Util, sendo Applicati
 
 Apesar de não serem projetos propriamente ditos, achei interessante publicar aqui para, além de demonstrar conhecimentos obtidos, não deixar o GitHub totalmente parado, porém eu tentarei trazer projetos o mais rápido possível, mas sem esquecer de absorver o conteúdo no processo.
 
+Obs: o "Problema2.java" foi um dos exercícios em que eu mais me desafiei a sair do código demostrado no curso, adicionando mais métodos e análise de váriaveis.
+
 Qualquer dúvida ou feedback, podem me contatar!
 
 # Autor
