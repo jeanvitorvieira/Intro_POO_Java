@@ -31,6 +31,7 @@ public class Problema2 {
             sc.next();
         }
         product.quantity = sc.nextInt();
+        sc.nextLine();
 
         System.out.println("\nProduct data: " + product);
 
@@ -44,6 +45,7 @@ public class Problema2 {
                 sc.next();
             }
             bigOp = sc.nextInt();
+            sc.nextLine();
 
             if (bigOp == 1) {
                 int op = 1;
@@ -58,10 +60,11 @@ public class Problema2 {
                         sc.next();
                     }
                     shortOp = sc.nextInt();
+                    sc.nextLine();
 
                     if (shortOp == 1) {
                         System.out.println("\nEnter the new name of the product: ");
-                        name = sc.next();
+                        name = sc.nextLine();
                         product.changeName(name);
                         System.out.println("\nUpdated data: " + product);
                     } else if (shortOp == 2) {
@@ -84,6 +87,7 @@ public class Problema2 {
                             sc.next();
                         }
                         int stockOp = sc.nextInt();
+                        sc.nextLine();
 
                         if (stockOp == 1) {
                             System.out.print("\nEnter the number of products to be added in stock: ");
@@ -93,6 +97,7 @@ public class Problema2 {
                                 sc.next();
                             }
                             quantity = sc.nextInt();
+                            sc.nextLine();
                             product.addProducts(quantity);
                             System.out.println("\nUpdated data: " + product);
                         } else if (stockOp == 2) {
@@ -103,6 +108,7 @@ public class Problema2 {
                                 sc.next();
                             }
                             quantity = sc.nextInt();
+                            sc.nextLine();
                             product.removeProducts(quantity);
                             System.out.println("\nUpdated data: " + product);
                         } else {
